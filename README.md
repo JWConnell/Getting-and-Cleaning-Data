@@ -85,4 +85,5 @@ Also included in this repository, this script performs all the operations to pro
   
 - Write this out as a text file for project submission.
 
-Also included in this repository is CodeBook.md, which describes the variables, the data, any operations performed to clean up the data, and any other relevant information.
+### CodeBook.md  
+CodeBook.md describes the variables, the data, any operations performed to clean up the data, and any other relevant information.
