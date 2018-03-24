@@ -26,7 +26,7 @@ The data are available here:
 Data are packaged in the zip archive, UCI_HAR_Dataset.zip, in the form of text files.  The files required for this project are included in the annotated list below:  
 
   > "./data/UCI HAR Dataset/README.txt"  
-  >> -background information on the HAR study  
+      -background information on the HAR study  
       
   > "./data/UCI HAR Dataset/features_info.txt"   
       - detailed information about the instruments/measured used to generate observations  
