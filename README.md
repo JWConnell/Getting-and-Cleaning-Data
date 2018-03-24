@@ -22,7 +22,7 @@ A full description is available at the site where the data was obtained:
 The data are available here:
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
   
-###The data  
+### The data  
 Data are packaged in the zip archive, UCI_HAR_Dataset.zip, in the form of text files.  The files required for this project are included in the annotated list below:
 
   -"./data/UCI HAR Dataset/README.txt"  
@@ -58,7 +58,7 @@ Data are packaged in the zip archive, UCI_HAR_Dataset.zip, in the form of text f
   
 A file was written to the local archive, "./data/UCI HAR Dataset/tidydata.txt".  A copy is included in this repository as per project requirements.  This is a space delimited text file representing 180 observations, not including column names, which are presented in the first row.  There are 69 columns, including subjectId, activityId, activity label, and 66 measures (features).  
 
-###The R-script "run_analysis.R
+### The R-script "run_analysis.R
 Also included in this repository, this script performs all the operations to produce the tidy data text file.  These operations are listed below. Some operations depend upon the tidyverse package, so the first step is to load tidyverse.
 
 - Download files, extract to local directory, list the files to show archive contents
