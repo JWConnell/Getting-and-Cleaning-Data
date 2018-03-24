@@ -10,9 +10,9 @@ The purpose of this project is to demonstrate an ability to collect, work with, 
   
 The source data for the project came from this study:
 
-  Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.
-  A Public Domain Dataset for Human Activity Recognition Using Smartphones.
-  21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013.
+  Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  
+  A Public Domain Dataset for Human Activity Recognition Using Smartphones.  
+  21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013.  
   Bruges, Belgium 24-26 April 2013.
   
 
