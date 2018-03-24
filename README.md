@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data
-This repository fulfills the requirements for Coursera Getting and Cleaning Data Week 4 project
+## This repository fulfills the requirements for Coursera Getting and Cleaning Data Week 4 project
 
 The purpose of this project is to demonstrate an ability to collect, work with, and clean a data set. Requirements include the following:
   1) a tidy data set which can be used for later analysis - tidydata.txt
@@ -11,10 +11,14 @@ The purpose of this project is to demonstrate an ability to collect, work with, 
 The source data for the project came from this study:
 
   Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.
+  
   A Public Domain Dataset for Human Activity Recognition Using Smartphones.
+  
   21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013.
+  
   Bruges, Belgium 24-26 April 2013.
   
+
 A full description is available at the site where the data was obtained:
   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
