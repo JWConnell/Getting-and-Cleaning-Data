@@ -25,27 +25,41 @@ The data are packaged in the zip archive, UCI_HAR_Dataset.zip, in the form of te
 
   *"./data/UCI HAR Dataset/README.txt"
       #background information on the HAR study
+      
   *"./data/UCI HAR Dataset/features_info.txt"
       #detailed information about the instruments/measured used to generate observations
+      
+      
 
   *"./data/UCI HAR Dataset/activity_labels.txt"
       #labels for six activities observed in the study
 
-*"./data/UCI HAR Dataset/features.txt"|#A 561-feature vector with time and frequency domain variables
 
-*"./data/UCI HAR Dataset/test/X_test.txt"|#the test set; observations from a test phase of the study; a space-delimited file with 2947 observations (rows) and 561 variables (columns) 
 
-*"./data/UCI HAR Dataset/test/subject_test.txt"|#subjectIds, a one column vector with 2947 rows, corresponding to observations in "X_test.txt"
+*"./data/UCI HAR Dataset/features.txt"
+#A 561-feature vector with time and frequency domain variables
 
-*"./data/UCI HAR Dataset/test/y_test.txt"|#activityIds, a one column vector with 2947 rows, corresponding to observations in "X_test.txt"
 
-*"./data/UCI HAR Dataset/train/X_train.txt"|#the training set; observations from a training phase of the study; a space-delimited file with 7352 observations (rows) and 561 variables (columns) 
+*"./data/UCI HAR Dataset/test/X_test.txt"
+#the test set; observations from a test phase of the study; a space-delimited file with 2947 observations (rows) and 561 variables (columns) 
 
-*"./data/UCI HAR Dataset/train/subject_train.txt"|#subjectIds, a one column vector with 7352 rows, corresponding to observations in "X_train.txt"
+*"./data/UCI HAR Dataset/test/subject_test.txt"
+#subjectIds, a one column vector with 2947 rows, corresponding to observations in "X_test.txt"
 
-*"./data/UCI HAR Dataset/train/y_train.txt"|#activityIds, a one column vector with 7352 rows, corresponding to observations in "X_train.txt"
 
-This file was written to the local archive, "./data/UCI HAR Dataset/tidydata.txt".  A copy of this file is included in this repository as per project requirements.  This file 
+*"./data/UCI HAR Dataset/test/y_test.txt"
+#activityIds, a one column vector with 2947 rows, corresponding to observations in "X_test.txt"
+
+*"./data/UCI HAR Dataset/train/X_train.txt"
+#the training set; observations from a training phase of the study; a space-delimited file with 7352 observations (rows) and 561 variables (columns) 
+
+*"./data/UCI HAR Dataset/train/subject_train.txt"
+#subjectIds, a one column vector with 7352 rows, corresponding to observations in "X_train.txt"
+
+*"./data/UCI HAR Dataset/train/y_train.txt"
+#activityIds, a one column vector with 7352 rows, corresponding to observations in "X_train.txt"
+
+This file was written to the local archive, "./data/UCI HAR Dataset/tidydata.txt".  A copy is included in this repository as per project requirements.  This is a space delimited text file representing 180 observations, not including column names, which are presented in the first row.  There are 69 columns, including subjectId, activityId, activity label, and 66 measures (features).  
 
 The R-script "run_analysis.R, also included in this repository, performs all the operations to produce the tidy data text file.  These operations are listed below. Some operations depend upon the tidyverse package, so the first step is to load tidyverse.
 
