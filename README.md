@@ -20,9 +20,9 @@ A full description is available at the site where the data was obtained:
   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The data are available here:
-  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
   
-###The data
+###The data  
 Data are packaged in the zip archive, UCI_HAR_Dataset.zip, in the form of text files.  The files required for this project are included in the annotated list below:
 
   -"./data/UCI HAR Dataset/README.txt"  
